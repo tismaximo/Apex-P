@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1689031540 source:c:\users\ailin\onedrive\documentos\github\apex-p\main.cpp
+	<iostream>
+	"Menu.h"
+
+1689024330 c:\users\ailin\onedrive\documentos\github\apex-p\include\menuprincipal.h
+
+1689031630 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\menuprincipal.cpp
+	<iostream>
+	"Menu.h"
+	"rlutil.h"
+
+1571584339 c:\users\ailin\onedrive\documentos\github\apex-p\include\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1689024330 c:\users\ailin\onedrive\documentos\github\apex-p\include\menu.h
+
