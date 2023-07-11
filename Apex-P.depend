@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1689031540 source:c:\users\ailin\onedrive\documentos\github\apex-p\main.cpp
+1689033133 source:c:\users\ailin\onedrive\documentos\github\apex-p\main.cpp
 	<iostream>
 	"Menu.h"
 
 1689024330 c:\users\ailin\onedrive\documentos\github\apex-p\include\menuprincipal.h
 
-1689031630 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\menuprincipal.cpp
+1689040548 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\menuprincipal.cpp
 	<iostream>
 	"Menu.h"
 	"rlutil.h"
@@ -24,5 +24,15 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1689024330 c:\users\ailin\onedrive\documentos\github\apex-p\include\menu.h
+1689036090 c:\users\ailin\onedrive\documentos\github\apex-p\include\menu.h
+
+1689034116 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\unjugador.cpp
+	<iostream>
+	"rlutil.h"
+	"Menu.h"
+
+1689034116 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\animacionmenuprincipal.cpp
+	<iostream>
+	"Menu.h"
+	"rlutil.h"
 
