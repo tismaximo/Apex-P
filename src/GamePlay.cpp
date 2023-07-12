@@ -4,6 +4,7 @@ using namespace std;
 
 #include "GamePlay.h"
 #include "Personaje.h"
+#include "Escenario.h"
 
 bool GamePlay::GameLoop(){
 /*
@@ -59,33 +60,11 @@ rlutil::anykey();
 cout<<"\n\tDespiertas a las afueras de un castillo...\n";
 
 
-/// Eventos o personajes:
-//  cmd:
-int camino;
+// objeto primer escenario:
+Escenario primerEscenario;
+// constructor:
+while(primerEscenario.EscenarioMedieval(player1));
 
-while(true){
-
-cout<<"\n\tESCENARIO: Afueras del castillo.\n";
-
-cout<<"1 - Camino 1\n";
-cout<<"2 - Camino 2\n";
-cout<<"3 - Camino 3\n";
-cout<<"4 - Camino 4\n";
-
-cin>>camino;
-//  update:
-
-//las opciones deben ser random.
-//Nuevos eventos.
-
-//  draw:
-
-switch(camino){
-case 1:cout<<"\nACA VA UN CAMINO";break;
-case 2:cout<<"\nACA VA UN EVENTO";break;
-case 3:cout<<"\nACA VA UN CAMINO";break;
-case 4:cout<<"\nACA VA UN NPC";break;
-}
-}
-return false;
+cout<<"\n\tBANDERA\n";
+// objeto de ecenario recibe false o true:
 }

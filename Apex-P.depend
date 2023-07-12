@@ -38,19 +38,21 @@
 	"Menu.h"
 	"rlutil.h"
 
-1689170590 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\gameplay.cpp
+1689177326 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\gameplay.cpp
 	<iostream>
 	"rlutil.h"
 	"GamePlay.h"
 	"Personaje.h"
+	"Escenario.h"
 
 1689107724 c:\users\ailin\onedrive\documentos\github\apex-p\include\gameplay.h
 
-1689107041 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\escenario.cpp
+1689185270 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\escenario.cpp
 	<iostream>
+	"rlutil.h"
 	"Escenario.h"
 
-1689170598 c:\users\ailin\onedrive\documentos\github\apex-p\include\escenario.h
+1689177326 c:\users\ailin\onedrive\documentos\github\apex-p\include\escenario.h
 	"Personaje.h"
 
 1689108678 c:\users\ailin\onedrive\documentos\github\apex-p\include\personaje.h

@@ -8,7 +8,10 @@ class Escenario
 private:
     string _escenario;
 public:
-    void EscenarioMedieval(Personaje&);
+// constructores:
+    bool EscenarioMedieval(Personaje&);
+// getters:
+    string getEscenario();
 };
 
 #endif // ESCENARIO_H
