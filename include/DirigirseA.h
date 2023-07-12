@@ -5,18 +5,20 @@
 
 class DirigirseA
 {
-public:
+private:
     string _nombreEvento;
     string _nombreCamino;
     string _nombreNPC;
     int _tipo;
-private:
+public:
+//constructores:
+    void PrincesaEnApuros(Personaje&);
+    void laFrutaDelOlvido(Personaje&);
 //setters:
-    void setNombreEvento();
     void setNombreCamino();
     void setNombreNPC();
 
-    void Evento(Personaje&);
+    void EventoRandom(Personaje&);
     void Camino(Personaje&);
     void NPC(Personaje&);
 };

@@ -3,7 +3,7 @@ using namespace std;
 #include "rlutil.h"
 
 #include "Escenario.h"
-//#include "Personaje.h"
+#include "DirigirseA.h"
 
 // constructores:
 bool Escenario::EscenarioMedieval(Personaje&player1){
@@ -48,15 +48,17 @@ cin>>camino;
 
 //  draw:
 
+DirigirseA Evento;
+
+
 switch(camino){
 case 1:cout<<"\nACA VA UN CAMINO";break;        //Metodos random.
-case 2:cout<<"\nACA VA UN EVENTO";break;
+case 2:cout<<"\nACA VA UN EVENTO\n";Evento.EventoRandom(player1);break;
 case 3:cout<<"\nACA VA UN CAMINO";break;
 case 4:cout<<"\nACA VA UN NPC";break;
 case 5:nivel=false;break;
 default:break;
 }
-rlutil::anykey();
 system("cls");
 }
 

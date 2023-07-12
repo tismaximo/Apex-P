@@ -64,25 +64,44 @@ void Personaje::PersonajeElfo(){
 }
 //Setters:
 void Personaje::setNombre(string nombre){
-    _nombre=nombre;
+    _nombre+=nombre;
 }
 void Personaje::setVida(int vida){
-    _vida=vida;
+    _vida+=vida;
 }
 void Personaje::setFuerza(int fuerza){
-    _fuerza=fuerza;
+    _fuerza+=fuerza;
 }
 void Personaje::setAgilidad(int agilidad){
-    _agilidad=agilidad;
+    _agilidad+=agilidad;
 }
 void Personaje::setInteligencia(int inteligencia){
-    _inteligencia=inteligencia;
+    _inteligencia+=inteligencia;
 }
 void Personaje::setMana(int mana){
-    _mana=mana;
+    _mana+=mana;
 }
 void Personaje::setChi(int chi){
-    _chi=chi;
+    _chi+=chi;
+}
+//takkers:
+void Personaje::takeVida(int vida){
+    _vida-=vida;
+}
+void Personaje::takeFuerza(int fuerza){
+    _fuerza-=fuerza;
+}
+void Personaje::takeAgilidad(int agilidad){
+    _agilidad-=agilidad;
+}
+void Personaje::takeInteligencia(int inteligencia){
+    _inteligencia-=inteligencia;
+}
+void Personaje::takeMana(int mana){
+    _mana-=mana;
+}
+void Personaje::takeChi(int chi){
+    _chi-=chi;
 }
 //Getters:
 string Personaje::getNombre(){

@@ -39,7 +39,7 @@ case 6:player1.PersonajeElfo();break;
 player1.setNombre(nombreJugador);
 
 // Funcion de stats:
-
+/*
 cout<<"\n\tSTATS:\n";
 
 cout<<"\n\tNombre: "<<player1.getNombre();
@@ -53,7 +53,7 @@ cout<<"\n\tMana: "<<player1.getMana();
 cout<<"\n\tMana: "<<player1.getMana();
 
 rlutil::anykey();
-
+*/
 
 /// introduccion:
 

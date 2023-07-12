@@ -38,7 +38,7 @@
 	"Menu.h"
 	"rlutil.h"
 
-1689177326 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\gameplay.cpp
+1689188215 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\gameplay.cpp
 	<iostream>
 	"rlutil.h"
 	"GamePlay.h"
@@ -47,15 +47,16 @@
 
 1689107724 c:\users\ailin\onedrive\documentos\github\apex-p\include\gameplay.h
 
-1689185270 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\escenario.cpp
+1689193066 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\escenario.cpp
 	<iostream>
 	"rlutil.h"
 	"Escenario.h"
+	"DirigirseA.h"
 
 1689177326 c:\users\ailin\onedrive\documentos\github\apex-p\include\escenario.h
 	"Personaje.h"
 
-1689108678 c:\users\ailin\onedrive\documentos\github\apex-p\include\personaje.h
+1689190377 c:\users\ailin\onedrive\documentos\github\apex-p\include\personaje.h
 	<iostream>
 
 1689106793 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\historia.cpp
@@ -64,6 +65,21 @@
 
 1689106793 c:\users\ailin\onedrive\documentos\github\apex-p\include\historia.h
 
-1689108734 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\personaje.cpp
+1689190622 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\personaje.cpp
+	"Personaje.h"
+
+1689190820 source:c:\users\ailin\onedrive\documentos\github\apex-p\src\dirigirsea.cpp
+	<iostream>
+	<ctime>
+	"rlutil.h"
+	"HerramientasApexP.h"
+	"Personaje.h"
+	"DirigirseA.h"
+
+1689192604 c:\users\ailin\onedrive\documentos\github\apex-p\include\herramientasapexp.h
+	<ctime>
+	"DirigirseA.h"
+
+1689192679 c:\users\ailin\onedrive\documentos\github\apex-p\include\dirigirsea.h
 	"Personaje.h"
 

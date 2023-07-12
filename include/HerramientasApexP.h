@@ -3,6 +3,8 @@
 
 #include <ctime>
 
+#include "DirigirseA.h"
+
 /// Numero aleatorio:
 int GenerarNumeroAleatorio(int minimo, int maximo){
 srand(time(0));
