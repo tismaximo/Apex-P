@@ -28,6 +28,8 @@ public:
     void setNombre(string);
     void setVida(int);
     void takeVida(int);
+    void setStamina(int);
+    void takeStamnia(int);
     void setFuerza(int);
     void takeFuerza(int);
     void setAgilidad(int);

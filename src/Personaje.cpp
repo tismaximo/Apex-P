@@ -69,6 +69,9 @@ void Personaje::setNombre(string nombre){
 void Personaje::setVida(int vida){
     _vida+=vida;
 }
+void Personaje::setStamina(int stamina){
+    _stamina+=stamina;
+}
 void Personaje::setFuerza(int fuerza){
     _fuerza+=fuerza;
 }
@@ -87,6 +90,9 @@ void Personaje::setChi(int chi){
 //takkers:
 void Personaje::takeVida(int vida){
     _vida-=vida;
+}
+void Personaje::takeStamnia(int stamina){
+    _stamina-=stamina;
 }
 void Personaje::takeFuerza(int fuerza){
     _fuerza-=fuerza;

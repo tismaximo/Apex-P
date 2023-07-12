@@ -11,9 +11,12 @@ private:
     string _nombreNPC;
     int _tipo;
 public:
-//constructores:
+//constructores Eventos:
     void PrincesaEnApuros(Personaje&);
     void laFrutaDelOlvido(Personaje&);
+    void SoldadoDelPaso(Personaje&);
+//constructores NPC´s:
+
 //setters:
     void setNombreCamino();
     void setNombreNPC();
