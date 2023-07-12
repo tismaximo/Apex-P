@@ -4,6 +4,8 @@ using namespace std;
 #include "Menu.h"
 #include "rlutil.h"
 
+#include "GamePlay.h"
+
 int MenuPrincipal(){
 
 rlutil::hidecursor();
@@ -13,6 +15,7 @@ AnimacionMenuPrincipal();
 int columnaX=33;
 int filaY=29;
 int velocidad=10;
+GamePlay iniciarPartida;
 
 bool eleccion=true;
 while(eleccion){
@@ -35,7 +38,7 @@ case 14: filaY-=2;if(filaY<29)filaY=29;break;
 case 15: filaY+=2;if(filaY>37)filaY=37;break;
 case 0 : system("cls");eleccion=false;break;
 case 1 : switch(filaY){
-case 29: system("cls");MenuUnjugador();break;/*Iniciar partida*/
+case 29: system("cls");iniciarPartida.GameLoop();break;/*Iniciar partida*/
 case 31: system("cls");break;/*Opciones*/
 case 33: system("cls");break;/*Creditos*/
 case 35: system("cls");break;/*Lore*/
