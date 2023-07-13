@@ -41,6 +41,7 @@
 		<Unit filename="include/HIstoria.h" />
 		<Unit filename="include/HerramientasApexP.h" />
 		<Unit filename="include/Menu.h" />
+		<Unit filename="include/Minijuegos.h" />
 		<Unit filename="include/Personaje.h" />
 		<Unit filename="include/rlutil.h" />
 		<Unit filename="main.cpp" />
@@ -50,6 +51,7 @@
 		<Unit filename="src/GamePlay.cpp" />
 		<Unit filename="src/HIstoria.cpp" />
 		<Unit filename="src/MenuPrincipal.cpp" />
+		<Unit filename="src/Minijuegos.cpp" />
 		<Unit filename="src/Personaje.cpp" />
 		<Unit filename="src/UnJugador.cpp" />
 		<Extensions>

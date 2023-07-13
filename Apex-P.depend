@@ -5,7 +5,7 @@
 
 1689195541 c:\users\user\documents\github\apex-p\include\menu.h
 
-1689195541 source:c:\users\user\documents\github\apex-p\src\animacionmenuprincipal.cpp
+1689266844 source:c:\users\user\documents\github\apex-p\src\animacionmenuprincipal.cpp
 	<iostream>
 	"Menu.h"
 	"rlutil.h"
@@ -24,7 +24,7 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1689209878 source:c:\users\user\documents\github\apex-p\src\dirigirsea.cpp
+1689212593 source:c:\users\user\documents\github\apex-p\src\dirigirsea.cpp
 	<iostream>
 	<ctime>
 	"rlutil.h"
@@ -54,7 +54,7 @@
 1689195541 c:\users\user\documents\github\apex-p\include\escenario.h
 	"Personaje.h"
 
-1689195541 source:c:\users\user\documents\github\apex-p\src\gameplay.cpp
+1689212585 source:c:\users\user\documents\github\apex-p\src\gameplay.cpp
 	<iostream>
 	"rlutil.h"
 	"GamePlay.h"
@@ -69,13 +69,14 @@
 
 1689195541 c:\users\user\documents\github\apex-p\include\historia.h
 
-1689195541 source:c:\users\user\documents\github\apex-p\src\menuprincipal.cpp
+1689266882 source:c:\users\user\documents\github\apex-p\src\menuprincipal.cpp
 	<iostream>
 	"Menu.h"
 	"rlutil.h"
+	"Minijuegos.h"
 	"GamePlay.h"
 
-1689209878 source:c:\users\user\documents\github\apex-p\src\personaje.cpp
+1689212586 source:c:\users\user\documents\github\apex-p\src\personaje.cpp
 	"Personaje.h"
 
 1689195541 source:c:\users\user\documents\github\apex-p\src\unjugador.cpp
@@ -83,4 +84,12 @@
 	"rlutil.h"
 	"Menu.h"
 	"GamePlay.h"
+
+1689265744 c:\users\user\documents\github\apex-p\include\minijuegos.h
+
+1689267828 source:c:\users\user\documents\github\apex-p\src\minijuegos.cpp
+	<iostream>
+	"rlutil.h"
+	"Minijuegos.h"
+	<ctime>
 
