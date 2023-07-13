@@ -38,14 +38,14 @@ cin>>eleccion;
 
 if(GenerarNumeroAleatorio(1,2)%2!=0){
     switch(eleccion){
-        case 1: jugador.setInteligencia(GenerarNumeroAleatorio(1,3));cout<<"\n\tHas ganado inteligencia!\n";break;
+        case 1: jugador.addInteligencia(GenerarNumeroAleatorio(1,3));cout<<"\n\tHas ganado inteligencia!\n";break;
         case 2: jugador.takeInteligencia(GenerarNumeroAleatorio(1,3));cout<<"\n\tHas perdido inteligencia!\n";break;
 }
 }
 else{
     switch(eleccion){
         case 1: jugador.takeInteligencia(GenerarNumeroAleatorio(1,3));cout<<"\n\tHas perdido inteligencia!\n";break;
-        case 2: jugador.setInteligencia(GenerarNumeroAleatorio(1,3));cout<<"\n\tHas ganado inteligencia!\n";break;
+        case 2: jugador.addInteligencia(GenerarNumeroAleatorio(1,3));cout<<"\n\tHas ganado inteligencia!\n";break;
 }
 }
 cout<<"CONTINUAR";
@@ -62,7 +62,7 @@ cout<<"aceptas? (si - 1 / no - 2)";
 cin>>eleccion;
 switch(eleccion){
 case 1: if(GenerarNumeroAleatorio(1,10)%2!=0){
-        jugador.setChi(GenerarNumeroAleatorio(1,3)); cout<<"\n\t Has ganado Chi!\n";}
+        jugador.addChi(GenerarNumeroAleatorio(1,3)); cout<<"\n\t Has ganado Chi!\n";}
         else {jugador.takeChi(1); cout<<"\n\tHas perdido Chi!\n";}break;
 case 2:break;
 }
@@ -80,7 +80,7 @@ cout<<"aceptas? (si - 1 / no - 2)";
 cin>>eleccion;
 switch(eleccion){
 case 1: if(GenerarNumeroAleatorio(1,10)%2!=0){
-        jugador.setFuerza(GenerarNumeroAleatorio(1,3)); cout<<"\n\t Has ganado Fuerza!\n";}
+        jugador.addFuerza(GenerarNumeroAleatorio(1,3)); cout<<"\n\t Has ganado Fuerza!\n";}
         else {jugador.takeFuerza(GenerarNumeroAleatorio(1,3)); cout<<"\n\tHas perdido Fuerza!\n";}break;
 case 2: jugador.takeStamnia(GenerarNumeroAleatorio(1,2)); cout<<"\n\tHas perdido Stamina.\n";break;
 }

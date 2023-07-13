@@ -25,20 +25,20 @@ public:
     void PersonajeLadron();
     void PersonajeElfo();
 //Setters y takkers:
-    void setNombre(string);
-    void setVida(int);
+    void addNombre(string);
+    void addVida(int);
     void takeVida(int);
-    void setStamina(int);
+    void addStamina(int);
     void takeStamnia(int);
-    void setFuerza(int);
+    void addFuerza(int);
     void takeFuerza(int);
-    void setAgilidad(int);
+    void addAgilidad(int);
     void takeAgilidad(int);
-    void setInteligencia(int);
+    void addInteligencia(int);
     void takeInteligencia(int);
-    void setMana(int);
+    void addMana(int);
     void takeMana(int);
-    void setChi(int);
+    void addChi(int);
     void takeChi(int);
 //Getters:
     string getNombre();
