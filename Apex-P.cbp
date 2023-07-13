@@ -34,13 +34,21 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/AnimacionesEventos.h" />
+		<Unit filename="include/DirigirseA.h" />
+		<Unit filename="include/Escenario.h" />
 		<Unit filename="include/GamePlay.h" />
+		<Unit filename="include/HIstoria.h" />
+		<Unit filename="include/HerramientasApexP.h" />
 		<Unit filename="include/Menu.h" />
 		<Unit filename="include/Personaje.h" />
 		<Unit filename="include/rlutil.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/AnimacionMenuPrincipal.cpp" />
+		<Unit filename="src/DirigirseA.cpp" />
+		<Unit filename="src/Escenario.cpp" />
 		<Unit filename="src/GamePlay.cpp" />
+		<Unit filename="src/HIstoria.cpp" />
 		<Unit filename="src/MenuPrincipal.cpp" />
 		<Unit filename="src/Personaje.cpp" />
 		<Unit filename="src/UnJugador.cpp" />

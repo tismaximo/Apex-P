@@ -7,12 +7,6 @@ using namespace std;
 #include "Escenario.h"
 
 bool GamePlay::GameLoop(){
-/*
-    bool _gameLoop;
-    int _cmd;
-    int _update;
-    int _draw;
-*/
 
 string nombreJugador;
 int tipoHeroe;
@@ -36,24 +30,7 @@ case 5:player1.PersonajeLadron();break;
 case 6:player1.PersonajeElfo();break;
 }
 
-player1.setNombre(nombreJugador);
-
-// Funcion de stats:
-/*
-cout<<"\n\tSTATS:\n";
-
-cout<<"\n\tNombre: "<<player1.getNombre();
-cout<<"\n\tClase: "<<player1.getClase();
-cout<<"\n\tVida: "<<player1.getVida();
-cout<<"\n\tStamina: "<<player1.getStamina();
-cout<<"\n\tFuerza: "<<player1.getFuerza();
-cout<<"\n\tAgilidad: "<<player1.getAgilidad();
-cout<<"\n\tInteligencia: "<<player1.getInteligencia();
-cout<<"\n\tMana: "<<player1.getMana();
-cout<<"\n\tMana: "<<player1.getMana();
-
-rlutil::anykey();
-*/
+player1.addNombre(nombreJugador);
 
 /// introduccion:
 

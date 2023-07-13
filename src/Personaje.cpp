@@ -62,29 +62,29 @@ void Personaje::PersonajeElfo(){
     _mana=10;
     _chi=2;
 }
-//Setters:
-void Personaje::setNombre(string nombre){
+//Adders:
+void Personaje::addNombre(string nombre){
     _nombre+=nombre;
 }
-void Personaje::setVida(int vida){
+void Personaje::addVida(int vida){
     _vida+=vida;
 }
-void Personaje::setStamina(int stamina){
+void Personaje::addStamina(int stamina){
     _stamina+=stamina;
 }
-void Personaje::setFuerza(int fuerza){
+void Personaje::addFuerza(int fuerza){
     _fuerza+=fuerza;
 }
-void Personaje::setAgilidad(int agilidad){
+void Personaje::addAgilidad(int agilidad){
     _agilidad+=agilidad;
 }
-void Personaje::setInteligencia(int inteligencia){
+void Personaje::addInteligencia(int inteligencia){
     _inteligencia+=inteligencia;
 }
-void Personaje::setMana(int mana){
+void Personaje::addMana(int mana){
     _mana+=mana;
 }
-void Personaje::setChi(int chi){
+void Personaje::addChi(int chi){
     _chi+=chi;
 }
 //takkers:
