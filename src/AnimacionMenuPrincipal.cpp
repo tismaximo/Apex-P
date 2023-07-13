@@ -127,4 +127,12 @@ filaY+=2;
 gotoxy(columnaX, filaY);
 char salir[6]="Salir";
 for(int i=0; i<6; i++){cout<<salir[i];rlutil::msleep(velocidad);}
+
+
+filaY+=2;
+gotoxy(columnaX, filaY);
+char debug[6]="Debug";
+for(int i=0; i<6; i++){cout<<debug[i];rlutil::msleep(velocidad);}
 }
+
+
