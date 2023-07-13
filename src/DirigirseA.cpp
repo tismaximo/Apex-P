@@ -35,8 +35,7 @@ ANIMACIONESPrincesaEnApuros();
 
 cout<<"1 - si / 2 - no";
 cin>>eleccion;
-
-if(GenerarNumeroAleatorio(1,2)%2!=0){
+if(GenerarNumeroAleatorio(1, 2)%2!=0){
     switch(eleccion){
         case 1: jugador.addInteligencia(GenerarNumeroAleatorio(1,3));cout<<"\n\tHas ganado inteligencia!\n";break;
         case 2: jugador.takeInteligencia(GenerarNumeroAleatorio(1,3));cout<<"\n\tHas perdido inteligencia!\n";break;
@@ -47,6 +46,9 @@ else{
         case 1: jugador.takeInteligencia(GenerarNumeroAleatorio(1,3));cout<<"\n\tHas perdido inteligencia!\n";break;
         case 2: jugador.addInteligencia(GenerarNumeroAleatorio(1,3));cout<<"\n\tHas ganado inteligencia!\n";break;
 }
+}
+if (jugador.getInteligencia() < 0) {
+    jugador.addInteligencia(abs(jugador.getInteligencia()));
 }
 cout<<"CONTINUAR";
 rlutil::anykey();
@@ -66,6 +68,9 @@ case 1: if(GenerarNumeroAleatorio(1,10)%2!=0){
         else {jugador.takeChi(1); cout<<"\n\tHas perdido Chi!\n";}break;
 case 2:break;
 }
+if (jugador.getChi() < 0) {
+    jugador.addChi(abs(jugador.getChi()));
+}
 cout<<"CONTINUAR.";
 rlutil::anykey();
 }
@@ -83,6 +88,12 @@ case 1: if(GenerarNumeroAleatorio(1,10)%2!=0){
         jugador.addFuerza(GenerarNumeroAleatorio(1,3)); cout<<"\n\t Has ganado Fuerza!\n";}
         else {jugador.takeFuerza(GenerarNumeroAleatorio(1,3)); cout<<"\n\tHas perdido Fuerza!\n";}break;
 case 2: jugador.takeStamnia(GenerarNumeroAleatorio(1,2)); cout<<"\n\tHas perdido Stamina.\n";break;
+}
+if (jugador.getFuerza() < 0) {
+    jugador.addFuerza(abs(jugador.getFuerza()));
+}
+if (jugador.getStamina() < 0) {
+    jugador.addStamina(abs(jugador.getStamina()));
 }
 cout<<"CONTINUAR.";
 rlutil::anykey();

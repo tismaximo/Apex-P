@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1689210321 source:c:\users\user\documents\github\apex-p\main.cpp
+1689270744 source:c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\main.cpp
 	<iostream>
 	"Menu.h"
 
-1689195541 c:\users\user\documents\github\apex-p\include\menu.h
+1689270744 c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\include\menu.h
 
-1689266844 source:c:\users\user\documents\github\apex-p\src\animacionmenuprincipal.cpp
+1689270744 source:c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\src\animacionmenuprincipal.cpp
 	<iostream>
 	"Menu.h"
 	"rlutil.h"
 
-1689195541 c:\users\user\documents\github\apex-p\include\rlutil.h
+1689270744 c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\include\rlutil.h
 	<iostream>
 	<string>
 	<cstdio>
@@ -24,7 +24,7 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1689212593 source:c:\users\user\documents\github\apex-p\src\dirigirsea.cpp
+1689270744 source:c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\src\dirigirsea.cpp
 	<iostream>
 	<ctime>
 	"rlutil.h"
@@ -33,63 +33,150 @@
 	"Personaje.h"
 	"DirigirseA.h"
 
-1689195541 c:\users\user\documents\github\apex-p\include\herramientasapexp.h
+1689270744 c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\include\herramientasapexp.h
 	<ctime>
 	"DirigirseA.h"
 
-1689209878 c:\users\user\documents\github\apex-p\include\dirigirsea.h
+1689270744 c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\include\dirigirsea.h
 	"Personaje.h"
 
-1689212593 c:\users\user\documents\github\apex-p\include\personaje.h
+1689270744 c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\include\personaje.h
 	<iostream>
 
-1689209878 c:\users\user\documents\github\apex-p\include\animacioneseventos.h
+1689270744 c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\include\animacioneseventos.h
 
-1689209878 source:c:\users\user\documents\github\apex-p\src\escenario.cpp
+1689270744 source:c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\src\escenario.cpp
 	<iostream>
 	"rlutil.h"
 	"Escenario.h"
 	"DirigirseA.h"
 
-1689195541 c:\users\user\documents\github\apex-p\include\escenario.h
+1689270744 c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\include\escenario.h
 	"Personaje.h"
 
-1689212585 source:c:\users\user\documents\github\apex-p\src\gameplay.cpp
+1689270744 source:c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\src\gameplay.cpp
 	<iostream>
 	"rlutil.h"
 	"GamePlay.h"
 	"Personaje.h"
 	"Escenario.h"
 
-1689195541 c:\users\user\documents\github\apex-p\include\gameplay.h
+1689270744 c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\include\gameplay.h
 
-1689195541 source:c:\users\user\documents\github\apex-p\src\historia.cpp
+1689270744 source:c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\src\historia.cpp
 	<iostream>
 	"HIstoria.h"
 
-1689195541 c:\users\user\documents\github\apex-p\include\historia.h
+1689270744 c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\include\historia.h
 
-1689266882 source:c:\users\user\documents\github\apex-p\src\menuprincipal.cpp
-	<iostream>
-	"Menu.h"
-	"rlutil.h"
-	"Minijuegos.h"
-	"GamePlay.h"
-
-1689212586 source:c:\users\user\documents\github\apex-p\src\personaje.cpp
-	"Personaje.h"
-
-1689195541 source:c:\users\user\documents\github\apex-p\src\unjugador.cpp
-	<iostream>
-	"rlutil.h"
-	"Menu.h"
-	"GamePlay.h"
-
-1689265744 c:\users\user\documents\github\apex-p\include\minijuegos.h
-
-1689267828 source:c:\users\user\documents\github\apex-p\src\minijuegos.cpp
+1689270744 source:c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\src\minijuegos.cpp
 	<iostream>
 	"rlutil.h"
 	"Minijuegos.h"
 	<ctime>
+
+1689270744 c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\include\minijuegos.h
+
+1689270744 source:c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\src\personaje.cpp
+	"Personaje.h"
+
+1689270744 source:c:\users\ailin\onedrive\documentos\github\apex-p_git\apex-p\src\unjugador.cpp
+	<iostream>
+	"rlutil.h"
+	"Menu.h"
+	"GamePlay.h"
+
+1689282668 source:c:\users\user\downloads\apex-p-main\apex-p-main\main.cpp
+	<iostream>
+	"Menu.h"
+
+1689282668 c:\users\user\downloads\apex-p-main\apex-p-main\include\menu.h
+
+1689282668 source:c:\users\user\downloads\apex-p-main\apex-p-main\src\animacionmenuprincipal.cpp
+	<iostream>
+	"Menu.h"
+	"rlutil.h"
+
+1689282668 c:\users\user\downloads\apex-p-main\apex-p-main\include\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1689282668 source:c:\users\user\downloads\apex-p-main\apex-p-main\src\dirigirsea.cpp
+	<iostream>
+	<ctime>
+	"rlutil.h"
+	"HerramientasApexP.h"
+	"AnimacionesEventos.h"
+	"Personaje.h"
+	"DirigirseA.h"
+
+1689282668 c:\users\user\downloads\apex-p-main\apex-p-main\include\herramientasapexp.h
+	<ctime>
+	"DirigirseA.h"
+
+1689282668 c:\users\user\downloads\apex-p-main\apex-p-main\include\dirigirsea.h
+	"Personaje.h"
+
+1689282668 c:\users\user\downloads\apex-p-main\apex-p-main\include\personaje.h
+	<iostream>
+
+1689282666 c:\users\user\downloads\apex-p-main\apex-p-main\include\animacioneseventos.h
+
+1689282668 source:c:\users\user\downloads\apex-p-main\apex-p-main\src\escenario.cpp
+	<iostream>
+	"rlutil.h"
+	"Escenario.h"
+	"DirigirseA.h"
+
+1689282668 c:\users\user\downloads\apex-p-main\apex-p-main\include\escenario.h
+	"Personaje.h"
+
+1689282668 source:c:\users\user\downloads\apex-p-main\apex-p-main\src\gameplay.cpp
+	<iostream>
+	"rlutil.h"
+	"GamePlay.h"
+	"Personaje.h"
+	"Escenario.h"
+
+1689282668 c:\users\user\downloads\apex-p-main\apex-p-main\include\gameplay.h
+
+1689282668 source:c:\users\user\downloads\apex-p-main\apex-p-main\src\historia.cpp
+	<iostream>
+	"HIstoria.h"
+
+1689282668 c:\users\user\downloads\apex-p-main\apex-p-main\include\historia.h
+
+1689282668 source:c:\users\user\downloads\apex-p-main\apex-p-main\src\menuprincipal.cpp
+	<iostream>
+	"Menu.h"
+	"rlutil.h"
+	"Minijuegos.h"
+	"GamePlay.h"
+
+1689282666 c:\users\user\downloads\apex-p-main\apex-p-main\include\minijuegos.h
+
+1689282666 source:c:\users\user\downloads\apex-p-main\apex-p-main\src\minijuegos.cpp
+	<iostream>
+	"rlutil.h"
+	"Minijuegos.h"
+	<ctime>
+
+1689282668 source:c:\users\user\downloads\apex-p-main\apex-p-main\src\personaje.cpp
+	"Personaje.h"
+
+1689282668 source:c:\users\user\downloads\apex-p-main\apex-p-main\src\unjugador.cpp
+	<iostream>
+	"rlutil.h"
+	"Menu.h"
+	"GamePlay.h"
 
