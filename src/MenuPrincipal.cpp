@@ -24,14 +24,14 @@ while(eleccion){
 gotoxy(columnaX, filaY);
 cout<<" ";
 gotoxy(columnaX, filaY+2);
-cout<<(char)175;
+cout<<(char)16;
 gotoxy(columnaX, filaY+4);
 cout<<" ";
 
 gotoxy(46, filaY);
 cout<<" ";
 gotoxy(46, filaY+2);
-cout<<(char)174;
+cout<<(char)17;
 gotoxy(46, filaY+4);
 cout<<" ";
 
