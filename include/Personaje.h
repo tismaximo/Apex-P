@@ -24,21 +24,32 @@ public:
     void PersonajeComerciante();
     void PersonajeLadron();
     void PersonajeElfo();
-//Setters y takkers:
+//Constructores de npcs:
+    void NpcPrincesa();
+    void NpcJinete();
+
+//Setters takkers y intercambios:
     void addNombre(string);
     void addVida(int);
+    void intercambioVida(Personaje&, Personaje&, int);
     void takeVida(int);
     void addStamina(int);
-    void takeStamnia(int);
+    void intercambioStamina(Personaje&, Personaje&, int);
+    void takeStamina(int);
     void addFuerza(int);
+    void intercambioFuerza(Personaje&, Personaje&, int);
     void takeFuerza(int);
     void addAgilidad(int);
+    void intercambioAgilidad(Personaje&, Personaje&, int);
     void takeAgilidad(int);
     void addInteligencia(int);
+    void intercambioInteligencia(Personaje&, Personaje&, int);
     void takeInteligencia(int);
     void addMana(int);
+    void intercambioMana(Personaje&, Personaje&, int);
     void takeMana(int);
     void addChi(int);
+    void intercambioChi(Personaje&, Personaje&, int);
     void takeChi(int);
 //Getters:
     string getNombre();

@@ -98,4 +98,21 @@ cout<<"\n\tUn soldado sale a tu encuentro.\n";
 cout<<"Este te pide el impuesto del paso,\n";
 cout<<"pero te ofrece evadir el pago si lo ayudas a mover una carga.\n";
 }
+
+void ANIMACIONESCarreraDeCaballos(){
+    system("cls");
+    cout << "  |" << endl;
+    cout << "  |"<< endl;
+    cout << "  + \ "<< endl;
+    cout << "  \\.G_.*=."<< endl;
+    cout << "   `(#'/.\|"<< endl;
+    cout << "    .>' (_--."<< endl;
+    cout << " _=/d   ,^\ "<< endl;
+    cout << "~~ \)-'   '"<< endl;
+    cout << "   / |   "<< endl;
+    cout << " '  '"<< endl;
+    cout << "El jinete Marcos te desafia a una carrera de caballos." << endl;
+    cout << "Marcos te apuesta 5 puntos de fuerza a que el va a ganar." << endl;
+    cout << "Aceptas la oferta? (1-si/2-no)" << endl;
+}
 #endif // ANIMACIONESEVENTOS_H_INCLUDED

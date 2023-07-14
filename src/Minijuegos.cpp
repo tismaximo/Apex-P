@@ -5,7 +5,8 @@ using namespace rlutil;
 #include "Minijuegos.h"
 #include<ctime>
 
-void Minijuegos::carreraDeCaballos() {
+int Minijuegos::carreraDeCaballos() {
+    system("cls");
     gotoxy(10, 9);
     cout << "______________________________________________________" << endl;
     gotoxy(10, 10);
@@ -72,13 +73,13 @@ void Minijuegos::carreraDeCaballos() {
     }
     gotoxy(30, 30);
     if (xJugador > xOponente) {
-        cout << "Felicidades! Ganaste la carrera!";
-    }
-    else if (xOponente > xJugador) {
-        cout << "Felicidades! Ganaste la carrera!";
+        cout << "Felicidades! Ganaste la carrera!" << endl;
+        return 1;
     }
     else {
-        cout << "Empate!";
+        cout << "Tu oponente ganó la carrera." << endl;
+        return 2;
     }
+
 
 }

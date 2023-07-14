@@ -15,6 +15,7 @@ public:
     void PrincesaEnApuros(Personaje&);
     void laFrutaDelOlvido(Personaje&);
     void SoldadoDelPaso(Personaje&);
+    void CarreraDeCaballos(Personaje&);
 //constructores NPC´s:
 
 //setters:

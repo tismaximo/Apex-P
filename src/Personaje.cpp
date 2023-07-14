@@ -62,6 +62,27 @@ void Personaje::PersonajeElfo(){
     _mana=10;
     _chi=2;
 }
+void Personaje::NpcPrincesa(){
+    _clase="Princesa";
+    _vida=12;
+    _stamina=3;
+    _fuerza=2;
+    _agilidad=9;
+    _inteligencia=15;
+    _mana=15;
+    _chi=4;
+}
+
+void Personaje::NpcJinete(){
+    _clase="Jinete";
+    _vida=13;
+    _stamina=17;
+    _fuerza=15;
+    _agilidad=10;
+    _inteligencia=7;
+    _mana=5;
+    _chi=2;
+}
 //Adders:
 void Personaje::addNombre(string nombre){
     _nombre+=nombre;
@@ -89,25 +110,87 @@ void Personaje::addChi(int chi){
 }
 //takkers:
 void Personaje::takeVida(int vida){
-    _vida-=vida;
+    if (_vida - vida > 0) {
+        _vida-=vida;
+    }
 }
-void Personaje::takeStamnia(int stamina){
-    _stamina-=stamina;
+void Personaje::takeStamina(int stamina){
+    if (_stamina - stamina > 0) {
+        _stamina-=stamina;
+    }
 }
 void Personaje::takeFuerza(int fuerza){
-    _fuerza-=fuerza;
+    if (_fuerza - fuerza > 0) {
+        _fuerza-=fuerza;
+    }
 }
 void Personaje::takeAgilidad(int agilidad){
-    _agilidad-=agilidad;
+    if (_agilidad - agilidad > 0) {
+        _agilidad-=agilidad;
+    }
 }
 void Personaje::takeInteligencia(int inteligencia){
-    _inteligencia-=inteligencia;
+    if (_inteligencia - inteligencia > 0) {
+        _inteligencia-=inteligencia;
+    }
 }
 void Personaje::takeMana(int mana){
-    _mana-=mana;
+    if (_mana - mana > 0) {
+        _mana-=mana;
+    }
 }
 void Personaje::takeChi(int chi){
-    _chi-=chi;
+    if (_chi - chi > 0) {
+        _chi-=chi;
+    }
+}
+void Personaje::intercambioVida(Personaje& da, Personaje& recibe, int vida){
+    if (da.getVida() - vida > 0) {
+        da.takeVida(vida);
+        recibe.addVida(vida);
+    }
+}
+
+void Personaje::intercambioStamina(Personaje& da, Personaje& recibe, int stamina){
+    if (da.getStamina() - stamina > 0) {
+        da.takeStamina(stamina);
+        recibe.addStamina(stamina);
+    }
+}
+
+void Personaje::intercambioFuerza(Personaje& da, Personaje& recibe, int fuerza){
+    if (da.getFuerza() - fuerza > 0) {
+        da.takeFuerza(fuerza);
+        recibe.addFuerza(fuerza);
+    }
+}
+
+void Personaje::intercambioAgilidad(Personaje& da, Personaje& recibe, int agilidad){
+    if (da.getAgilidad() - agilidad > 0) {
+        da.takeAgilidad(agilidad);
+        recibe.addAgilidad(agilidad);
+    }
+}
+
+void Personaje::intercambioInteligencia(Personaje& da, Personaje& recibe, int inteligencia){
+    if (da.getInteligencia() - inteligencia > 0) {
+        da.takeInteligencia(inteligencia);
+        recibe.addInteligencia(inteligencia);
+    }
+}
+
+void Personaje::intercambioMana(Personaje& da, Personaje& recibe, int mana){
+    if (da.getMana() - mana > 0) {
+        da.takeMana(mana);
+        recibe.addMana(mana);
+    }
+}
+
+void Personaje::intercambioChi(Personaje& da, Personaje& recibe, int chi){
+    if (da.getChi() - chi > 0) {
+        da.takeChi(chi);
+        recibe.addChi(chi);
+    }
 }
 //Getters:
 string Personaje::getNombre(){

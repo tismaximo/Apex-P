@@ -21,6 +21,7 @@ cin>>tipoHeroe;
 
 Personaje player1;
 
+
 switch(tipoHeroe){
 case 1:player1.PersonajeAldeano();break;
 case 2:player1.PersonajeFuerza();break;

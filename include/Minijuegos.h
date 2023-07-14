@@ -4,8 +4,8 @@
 class Minijuegos
 {
 public:
-    void carreraDeCaballos();
-    void tiroAlBlanco();
+    int carreraDeCaballos();
+    int tiroAlBlanco();
 };
 
 
